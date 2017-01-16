@@ -8,18 +8,19 @@ html {
   width: 300px;
 
   background: transparent url("../images/clock-face.svg") no-repeat center center;
+  position: relative;
 }
 
 .center {
   width: 28px;
   left: 33%;
   top: 80px;
-  position: relative;
+  position: absolute;
 }
 
 .hand {
   width: 14px;
-  position: relative;
+  position: absolute;
 }
 
 .hand-hour {
